@@ -300,7 +300,7 @@ extension TLPhotosPickerViewController {
             self.usedPrefetch = false
         }
         if #available(iOS 9.0, *), self.allowedLivePhotos {
-        }else {
+        } else {
             self.allowedLivePhotos = false
         }
     }
